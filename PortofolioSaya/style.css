@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+#navbar {
+  padding: 23px;
+  background-color: #445d48;
+}
+
+#navbar .navbar-nav a {
+  color: white;
+  margin-right: 15px;
+  margin-left: 10px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+#home .image {
+  width: 400px;
+  height: auto;
+  margin-top: 32px;
+  margin-left: 450px;
+}
+
+#home .header {
+  margin-left: 50px;
+  padding: 0 3%;
+}
+
+#home .content {
+  margin-left: 50px;
+  margin-bottom: 50px;
+  text-align: justify;
+  padding: 0 3%;
+}
+
+#pengalaman {
+  padding: 40px;
+  background-color: black;
+  color: white;
+}
+
+#pengalaman .header {
+  margin-left: 50px;
+  font-size: 30px;
+}
+
+#pengalaman .content {
+  margin-left: 50px;
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#pengalaman .paragraf {
+  margin-left: 50px;
+}
+
+#skill .image {
+  width: 100px;
+}
+
+#skill .header {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+#skill .row {
+  display: flex;
+}
+
+#skill .row .image {
+  margin-left: 120px;
+  margin-top: 30px;
+}
+
+#skill .row .content {
+  text-align: center;
+  margin-left: 115px;
+  margin-bottom: 100px;
+}
+
+#kontak .header {
+  font-size: 30px;
+  text-align: center;
+  padding: 50px;
+  color: aqua;
+}
+
+#kontak .image {
+  width: 100px;
+  margin-left: 115px;
+  margin-bottom: 100px;
+}
+
+#kontak {
+  background-color: black;
+  color: white;
+}
+
+#kontak .content {
+  margin-left: 115px;
+}
+
+#kontak .row {
+  display: flex;
+}
+#kontak .row .col {
+  margin-left: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  /* Adjust styles for screens up to 768px wide */
+  #navbar .navbar-nav a {
+    font-size: 16px;
+    margin-right: 10px;
+    margin-left: 5px;
+  }
+
+  /* Modify other styles as needed for smaller screens */
+}
+
+#resume .header {
+  margin-left: 50px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 40px;
+  padding: 0 3%;
+}
+
+#resume .content {
+  margin-left: 50px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: justify;
+  padding: 0 3%;
+}
